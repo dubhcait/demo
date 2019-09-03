@@ -2,9 +2,6 @@ import { config } from "dotenv";
 config();
 
 const sales = process.env.SALESFORCE
-const password = process.env.PASSWORD
-const loginUrl = process.env.LOGINURL
-
 
 
 export function handler(event, context, callback) {
