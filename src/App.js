@@ -16,7 +16,7 @@ const [msg, setMesg] = React.useState("");
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <button onClick={handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
+        <button onClick={handleClick("salesForce")}>{loading ? "Loading..." : "Call Lambda"}</button>
         <p>  <span>{msg}</span>
       </p>
       </header>
