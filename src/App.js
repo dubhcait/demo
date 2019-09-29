@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -27,7 +26,7 @@ function App() {
       <header className="App-header">
         <h2>{msg}</h2>
         <h3>{date}</h3>
-        {img != '' ? <img src={img} className="App-logo" alt="Nasa" /> : null}
+        {img !== '' ? <img src={img} className="App-logo" alt="Nasa" /> : null}
         <p>{explanation}</p>
       </header>
     </div>
